@@ -39,7 +39,6 @@ class StoriesAdapter(
 
     fun deleteItem(position: Int) {
         swipedListener.onStorySwiped(stories[position])
-        notifyItemRemoved(position)
     }
 
     interface OnStoryClicked {
